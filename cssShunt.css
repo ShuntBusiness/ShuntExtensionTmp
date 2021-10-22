@@ -1,0 +1,301 @@
+.popUpMenu {
+    background-color: #1A0A67;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: auto;
+    height: 600px;
+    width: 300px;
+    position: relative;
+}
+
+
+/* settings*/
+
+.popUpMenu .fa-cog {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* social & web icons*/
+
+.popUpMenu .fa-comment {
+    bottom: 2%;
+    right: 77%;
+    background: #176566;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+}
+
+.btnWeb {
+    position: absolute;
+    bottom: 2%;
+    left: 32%;
+    background-color: #8C88FB;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 65%;
+    height: 8%;
+    text-align: center;
+}
+
+
+/* main menu buttons*/
+
+.btn1 {
+    background-color: #8338E3;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    font-size: 20px;
+    width: 80%;
+    height: 20%;
+    text-align: left;
+}
+
+.btn1 i {
+    align-items: flex-start;
+    color: #6A2CBA;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.btn2 {
+    background-color: #F40752;
+    ;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    font-size: 20px;
+    width: 80%;
+    height: 20%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.btn2 i {
+    align-items: flex-start;
+    color: #BE2253;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.btn3 {
+    background-color: #ffbb00;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    padding: 12px 10px;
+    font-size: 20px;
+    width: 80%;
+    height: 20%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.btn3 i {
+    align-items: flex-start;
+    color: #ce9803;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+
+/* settings menu buttons*/
+
+
+.switch {
+
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+  }
+
+  #removeSpace{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .switch input {display:none;}
+  
+  .slider {
+    padding-right: 0px;
+    margin-right: 0px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#5e5e5e ;
+    -webkit-transition: .4s;
+    transition: .4s;
+     border-radius: 34px;
+  }
+  
+  .CrossoutWColor .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #F80D58;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .CrossoutWColor input:checked + .slider {
+    background-color: #BE2253; 
+  }
+  
+  .animations .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #d3ab0d;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  .animations input:checked + .slider {
+    background-color: #F9C743; 
+  }
+  
+  
+  .CrossoutWColor input:checked + .slider:before {
+  
+    background-color: #F80D58;
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(55px);
+  }
+  .animations input:checked + .slider:before {
+  
+    background-color: #d3ab0d;
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(55px);
+  }
+  
+  /*------ ADDED CSS ---------*/
+  .slider:after
+  {
+   content:'OFF';
+   color: white;
+   display: block;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+   font-size: 10px;
+   font-family: Verdana, sans-serif;
+  }
+  
+  input:checked + .slider:after
+  {  
+    content:'ON';
+  }
+  
+#patreon{
+  
+    background-color: #4657F6;
+    padding: 10px;
+}
+
+
+ /*------ Help ---------*/
+#helpInfo {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: left;
+}
+.helpAllowList{
+    background-color:white;
+    color: black;
+
+ }
+
+.blockList{
+    background-color:black;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 15px;
+    border-width: 1px;
+  }
+ 
+  .helPremium{
+    background-color:#34BEC7;
+    color: white;
+    
+  }
+
+
+  /*------ Settings view ---------*/
+
+  .dropdownAB{
+  width: 90%;
+  padding-bottom: 8%;
+  margin-bottom: 5%;
+  
+  }
+  .dropdownAB #dark{
+  background-color: black;
+  color: white;
+    }
+  
+  .dropdownAB #GamesPlayed{
+    background-color: #8338E3;
+    color: white;
+  }
+
+  .dropdownAB #MoviesWatched{
+    background-color: #F40752;
+    color: white;
+  }
+
+  .dropdownAB #SeriesWatched{
+    background-color: #F9C743;
+    color: white;
+  }
+
+
+ 
+ #btnHelp{
+  background-color: #68CC58;
+  width:90%;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  }
+
+ #btnPremium{
+    background-color:#34BEC7;
+    width:90%;
+    margin-bottom: 5%;
+  }
+  
+ #btnLogin{
+  background-color:#FF5D2B;
+  width:90%;
+  margin-bottom: 5%;
+}

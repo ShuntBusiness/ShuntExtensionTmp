@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/third-party/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="">
+    <!-- shunt css -->
+    <link rel="stylesheet" href="cssShunt.css">
+
+    <title>Shunt</title>
+</head>
+
+<body>
+
+
+    <div class="popUpMenu">
+
+        <img src="/images/icons shunt/Logo final sin fondo.png" height="150px" width="150px" alt="icon">
+
+        <div class="buttonsSettings">
+            <div class="d-flex flex-wrap-reverse justify-content-center">
+                <!-- REVISAR X Q EN LA EXTENSION NO VA A LA PAGINA DEL LINK, PROBLEMA DE PERMISOS? (CUANDO LE SE LE DA GO LIVE A VSCODE FUNCA LOCALMENTE!)-->
+                <a href="https://discord.com/download"><i class="fas fa-cog"></i></a>
+
+                <div class="dropdownAB" >
+                    <select class="form-select" aria-label=".form-select-lg example" id="dark">
+                        <option hidden >Block list</option>
+                        <option value="GamesPlayed" id="GamesPlayed">Games Played</option>
+                        <option value="MoviesWatched" id="MoviesWatched">Movies Watched</option>
+                        <option value="SeriesWatched" id="SeriesWatched">Series Watched</option>
+                    </select>
+
+                </div>
+
+                <div class="dropdownAB">
+                    <select class="form-select" aria-label=".form-select-lg example">
+                        <option hidden >Allow list</option>
+                        <option value="GamesPlayed" id="GamesPlayed">Games Played</option>
+                        <option value="MoviesWatched" id="MoviesWatched">Movies Watched</option>
+                        <option value="SeriesWatched" id="SeriesWatched">Series Watched</option>
+                    </select>
+
+
+                </div>
+     
+                
+            </div>
+
+            <div class="container-flex" id="btnSettingsHPL">
+
+            <button class="btn text-light" id="btnLogin" type="button"><i class="fas fa-user-circle"></i> Login</button>
+
+            <button class="btn text-light" id="btnPremium" type="button"> <i class="fas fa-star"></i> Premium</button>
+
+            <button class="btn text-light" id="btnHelp" type="button">  <i class="far fa-question-circle"></i>Help</button>
+        </div>
+
+        
+
+
+        <div class="media">
+
+
+            <a href="https://discord.com/download"> <i class="fas fa-comment"></i></a>
+
+            <form>
+                <button class="btnWeb" id="website"> Visit our website!</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <script src="background.js"></script>
+    <!--ES ESTE JS????-->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="/third-party/bootstrap.bundle.min.js" integrity=""></script>
+
+
+</body>
+
+</html>

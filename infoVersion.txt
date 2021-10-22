@@ -1,0 +1,32 @@
+Cosaas a arreglar:
+
+
+*View settings:
+    
+    -Alinear iconos botones
+
+
+
+
+*View popup:
+
+    -Arreglar problema botones que no redireccionan
+
+    
+*View help:
+
+    -Alinear todo mejor
+
+    
+*View premium:
+    
+    -Alinear todo mejor
+
+
+____________________________________________________________________
+
+
+Info de la version: 
+
+-Se agregaron nuevas views
+-Se arregló error manifest
